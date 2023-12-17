@@ -67,6 +67,21 @@ main h3 {
   line-height: 1.5px;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+  line-height: 1;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  margin: 0;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -99,10 +114,15 @@ footer ul {
   padding: 0;
 }
 section {
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0px auto;
-  padding: 100px 0;
+  padding: 100px;
 }
+
+section.secondary {
+  background-color: rgb(218, 218, 218);
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -120,12 +140,40 @@ section {
 
 .grid-3-columns {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  grid-gap: 60px;
 }
 
 .img-responsive {
+  display: block;
   max-width: 100%;
   height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(235, 235, 235);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  padding: 15px;
+  background-color: #9f9f9f;
+  text-align: center;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
@@ -153,5 +201,9 @@ section {
   section {
     padding: 30px 0;
     text-align: center;
+  }
+
+  section h3 {
+    font-size: 24px;
   }
 }
