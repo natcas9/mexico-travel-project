@@ -82,6 +82,11 @@ main h5 {
   margin: 0;
 }
 
+.img-mex {
+  max-width: 100%;
+  filter: grayscale(100%);
+}
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
