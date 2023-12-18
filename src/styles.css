@@ -89,6 +89,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  text-align: center;
 }
 
 footer h3 {
@@ -113,6 +114,7 @@ footer a {
 footer ul {
   padding: 0;
 }
+
 section {
   max-width: 100%;
   margin: 0px auto;
@@ -197,9 +199,6 @@ section.grid.grid-3-columns {
 .embeded {
   width: 100%;
   aspect-ratio: 1/1;
-}
-bloquote {
-  margin: 0 auto;
 }
 
 @media (max-width: 900px) {
