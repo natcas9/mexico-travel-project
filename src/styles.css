@@ -123,6 +123,9 @@ section.secondary {
   background-color: rgb(218, 218, 218);
   padding: 50px;
 }
+section.grid.grid-3-columns {
+  padding: 0;
+}
 
 .secondary-content {
   text-align: justify;
@@ -224,7 +227,7 @@ section.secondary {
   }
 
   h3.title {
-    font-size: 22.5px;
+    font-size: 18px;
   }
 
   section h3 {
