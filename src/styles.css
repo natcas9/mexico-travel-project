@@ -190,6 +190,7 @@ section.grid.grid-3-columns {
   background-color: #9f9f9f;
   text-align: center;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 
 .btn:hover {
