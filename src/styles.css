@@ -177,7 +177,7 @@ section.grid.grid-3-columns {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 30px 0;
+  margin: 30px auto;
 }
 
 .card-header.grid {
@@ -205,6 +205,10 @@ section.grid.grid-3-columns {
 .embeded {
   width: 100%;
   aspect-ratio: 1/1;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
 }
 
 @media (max-width: 900px) {
